@@ -1,2 +1,9 @@
 data export-ignore
 generated export-ignore
+# Ignore library files so they don't count as code
+jquery.js linguist-vendored
+bootstrap.css linguist-vendored
+
+# Ignore generated documentation or huge assets
+*.json linguist-vendored
+docs/ linguist-vendored
